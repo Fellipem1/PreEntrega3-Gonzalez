@@ -1,0 +1,144 @@
+<!-- Desarrollado por Felipe González -->
+<!DOCTYPE html>
+<!-- Página Web en Español -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuente Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Icono -->
+    <link rel="shortcut icon" href="./assets/images/icon/favicon.ico" type="image/x-icon">
+    <!-- Título -->
+    <title>Guías PLCnext | Phoenix Contact Chile</title>
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary roboto-regular">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/imagenes/phoenix.svg" alt="PHOENIX CONTACT" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex w-100 justify-content-center my-2 my-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+                <ul class="navbar-nav w-100 mb-2 mb-lg-0 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Guías
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/basico.html">Básicas</a></li>
+                            <li><a class="dropdown-item" href="./pages/intermedio.html">Intermedias</a></li>
+                            <li><a class="dropdown-item" href="./pages/avanzado.html">Avanzadas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./pages/sobre-mi.html">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main>
+        <section class="main-section roboto-regular">
+            <div class="card text-bg-dark">
+                <img src="./assets/images/imagenes/imagen2-carrusel.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay text-center">
+                  <h2 class="card-title">Guías de PLCnext</h2>
+                  <p class="card-text">En esta página encontraras todo tipo de guías de PLCnext</p>
+                  <div class="d-grid gap-2 d-md-block">
+                    <a href="#selecciona-tu-guia" class="btn btn-primary">Ir a las guías</a>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section classs="select-guia roboto-regular" id="selecciona-tu-guia">
+            <div class="select-guia-text">
+                <h2>Selecciona tu guía</h2>
+            </div>
+            <div class="container text-center my-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <article class="card card-custom">
+                        <img src="./assets/images/imagenes/plc.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Básicas</h5>
+                        <p class="card-text">Guías básicas de PLCnext</p>
+                        <a href="./pages/basico.html" class="btn btn-primary">Ir</a>
+                        </div>
+                    </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <article class="card card-custom">
+                        <img src="./assets/images/imagenes/plc.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Intermedias</h5>
+                        <p class="card-text">Guías intermedias de PLCnext</p>
+                        <a href="./pages/intermedio.html" class="btn btn-primary">Ir</a>
+                        </div>
+                    </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <article class="card card-custom">
+                        <img src="./assets/images/imagenes/plc.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Avanzadas</h5>
+                        <p class="card-text">Guías avanzadas de PLCnext</p>
+                        <a href="./pages/avanzado.html" class="btn btn-primary">Ir</a>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+            </div>   
+        </section>
+    </main>
+    <!-- Pie de página -->
+      <footer class="text-center roboto-regular">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <h5>Información de contacto</h5>
+                <p>Teléfono: +56 9 XXXX XXXX</p>
+                <ul class="list-unstyled">
+                <li><a href="https://asistencia.pxc.cl/">Asistencia Tecnica</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h5>Proyectos</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://github.com/Fellipem1">Github</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h5>Redes Sociales</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://www.linkedin.com/company/oktobertech/">Linkedin</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <p>© 2024 Realizado por Felipe González.</p>
+      </footer>
+    <!-- Script -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
