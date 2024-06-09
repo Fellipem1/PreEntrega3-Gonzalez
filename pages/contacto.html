@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- Icono -->
     <link rel="shortcut icon" href="../assets/images/icon/favicon.ico" type="image/x-icon">
@@ -58,10 +58,77 @@
     </nav>
     <!-- Main -->
     <main>
+        <section class="contact-section roboto-regular">
+            <div class="contact-section-text text-center">
+                <h1>Contacto</h1>
+            </div>
+        </section>
+        <section class="form-section roboto-regular">          
+            <div class="container text-center my-4 card">
+                <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 col-md-4 mb-4">
+                                <div class="select-guia-text text-center">
+                                    <h2>Phoenix Contact S.A.</h2>
+                                    <p>+56 9 XXXX XXXX</p>
+                                    <p>Calle Nueva 1661-G Huechuraba, Santiago</p>
+                                </div>
+                        </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                            <form class="row g-3">
+                                <div class="col-md-6 mb-3">
+                                    <label for="inputNombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="inputNombre">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="inputApellido" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="inputApellido">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="inputEmail" class="form-label">Correo</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Tucorreo@correo.com">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Pie de página -->
-    <footer>
-        <p class="pie_pagina Roboto">Desarrollado por Felipe González - 2024</p>
-    </footer>
+    <footer class="text-center roboto-regular">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <h5>Información de contacto</h5>
+                <p>Teléfono: +56 9 XXXX XXXX</p>
+                <ul class="list-unstyled">
+                <li><a href="https://asistencia.pxc.cl/">Asistencia Tecnica</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h5>Proyectos</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://github.com/Fellipem1">Github</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h5>Redes Sociales</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://www.linkedin.com/company/oktobertech/">Linkedin</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <p>© 2024 Realizado por Felipe González.</p>
+      </footer>
+    <!-- Script -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
