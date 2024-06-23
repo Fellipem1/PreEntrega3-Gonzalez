@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-section {
+  background-color: black;
+}
+
+.main-text {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.card {
+  min-height: 300px;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+.select-guia {
+  background-color: white;
+}
+
+.select-guia-text {
+  text-align: center;
+  padding: 50px;
+}
+
+.form-section {
+  height: 100vh;
+}
+
+.form-section form {
+  padding: 20px;
+}
+
+.contact-section {
+  background-color: white;
+}
+
+.contact-section-text {
+  text-align: center;
+  padding: 50px;
+}
+
+.me-section {
+  height: 100vh;
+}
+
+.me-section-text {
+  text-align: center;
+  padding: 50px;
+}
+
+.me-section p {
+  padding: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */
